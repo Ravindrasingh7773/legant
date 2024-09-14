@@ -1,0 +1,148 @@
+.cart_product{
+    display: flex;
+    padding: 24px 0;
+    border-bottom: 1px solid #e8ecef; 
+}
+.cart_item{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex: 1;
+}
+.cart_img{
+    margin-right: 16px;
+    background-color:#F3F5F7;
+}
+.cart_img img{
+    width:80px;
+    max-width:"a";
+    height:96px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+.cart_cnt h3{
+    font-size: 20px;
+    width:200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: #141718;
+}
+.cart_cnt p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #6C7275;
+}
+.cart_price{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.cart_qty{
+    border: 2px solid #6C7275;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+.cart_qty input{
+    width: 40px;
+    height: 32px;
+    text-align: right; 
+    outline:none;
+    border:0;
+    padding: 12px 8px 12px 8px;
+    border: none; 
+}
+.cart_qty input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  appearance: none;
+  margin: 0;
+}
+
+.cart_qty button{
+    border: none;
+    background-color: #fff;
+    padding: 0 9px;
+}
+.price{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+    color: #121212;
+}
+.remove_button{
+    border:none;
+    background:transparent;
+
+}
+.subtotle{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: right;
+    color: #121212;
+}
+@media (max-width:572px) {
+    .cart_product{
+        padding:12px 0;
+    }
+    
+.cart_item{ 
+    gap: 5px; 
+}
+.cart_img{
+    margin-right: 12px; 
+}   
+.cart_price{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+.cart_qty{
+    border: 2px solid #6C7275;
+    border-radius: 5px;
+    width: 80px;
+    height: 33px;
+}
+.cart_qty input{
+    width: 30px;
+    height: 26px;
+    text-align: center; 
+    outline:none;
+    border:0;
+    padding: 10px 6px  ;
+    border: none; 
+} 
+.cart_qty button{ 
+    padding: 0 6px;
+}
+.price{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+    color: #121212;
+}
+.remove_button{
+    border:none;
+    background:transparent;
+
+}
+.subtotle{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: right;
+    color: #121212;
+}
+}

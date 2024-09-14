@@ -1,0 +1,29 @@
+ 
+.select_box h6{
+    font-family: "inter",sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color:#6C7275;
+margin-bottom: 8px;
+text-transform: uppercase;
+}
+.select_box select{ 
+    min-width:262px;
+padding: 8px 8px 8px 16px;
+gap: 0px;
+border-radius: 8px ;
+border: 2px ;
+justify-content: space-between;
+opacity: 0px;
+border:2px solid #6C7275;
+}
+.select_box select option{  
+    font-family: "inter",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color:#141718;
+}

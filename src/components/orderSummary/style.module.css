@@ -1,0 +1,132 @@
+  
+.cartSummary {
+    border: 1px solid #6C7275;
+    border-radius: 8px;
+    padding:24px;
+    background-color: white;
+    margin-left: 60px;;
+  }
+  
+ .cartSummary h3 {
+    font-family: "poppins",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color:#121212;
+    margin-bottom: 16px;;
+  }
+  
+  .shippingOptions {
+    margin-bottom: 16px;
+    height: 500px;
+    overflow-y: scroll;
+  }
+  
+  .radioOption {
+    display: flex; 
+    align-items: center;
+    padding: 13px 16px;
+    background: #FEFEFE; 
+    border: 1px solid #6C7275; 
+    margin-bottom: 12px;
+    cursor: pointer;   
+border-radius: 4px ;  
+  }
+  
+  .radioOption input {
+    margin-right: 8px;
+  }
+  .shipping_name{
+    flex:1;
+  }
+  .price {
+    font-weight: bold;
+  }
+  
+  .summary {
+    margin-bottom: 16px;
+  }
+  
+  .subtotal, .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .total {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .checkoutButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+  } 
+input[type="radio"] {
+    display: none;
+}
+
+/*Style the custom radio button */
+.custom_radio {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+/*Create the checkmark icon */
+.custom_radio::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+/*When the radio button is checked, display the checkmark icon */
+input[type="radio"]:checked + .custom_radio::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+ .jankate{
+
+ }
+ .jankate_2{ 
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+text-align: right;
+color:#38CB89;
+ }
+ .summary_input{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:16px;
+  margin-bottom:16px;
+ }
+ 
+@media (max-width:525px) { 
+  .cartSummary { 
+    margin-top: 30px;
+    margin-left: 0; 
+  }
+  
+}

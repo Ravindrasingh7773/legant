@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  height:50px;
+  width:200px;
+}

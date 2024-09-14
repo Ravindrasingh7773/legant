@@ -1,0 +1,151 @@
+ 
+.white {
+  background-color: #fff;
+}
+
+.black {
+  background-color: #141414;
+} 
+
+.py-50 {
+  padding: 50px 0;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+.pt-25 {
+  padding-top: 25px;
+}
+.pb-25 {
+  padding-bottom: 25px;
+}
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pt-110 {
+  padding-top: 110px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+.pb-110 {
+  padding-bottom: 110px;
+}
+.pt-120 {
+  padding-top: 120px;
+}
+.pt-140 {
+  padding-top: 140px;
+}
+
+.pb-140 {
+  padding-bottom: 140px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+.pb-200 {
+  padding-bottom: 200px;
+}
+.bgImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section {
+  position: relative;
+}
+.section::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  /* z-index: -2; */
+}
+.before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  /* z-index: -2; */
+}
+
+.op-10 {
+  opacity: 0.1;
+}
+.op-20 {
+  opacity: 0.2;
+}
+.op-30 {
+  opacity: 0.3;
+}
+.op-40 {
+  opacity: 0.4;
+}
+.op-50 {
+  opacity: 0.5;
+}
+.op-60 {
+  opacity: 0.6;
+}
+.op-70 {
+  opacity: 0.7;
+}
+.op-80 {
+  opacity: 0.8;
+}
+.op-90 {
+  opacity: 0.9;
+}
+.op-100 {
+  opacity: 1;
+}
+
+@media (max-width:525px) {
+  .pt-120{
+    padding-top: 40px;
+  } .pb-120{
+    padding-bottom: 40px;
+  }
+  .pt-80{
+    padding-top: 40px;
+  } .pb-80{
+    padding-bottom: 40px;
+  }
+  
+  .pb-140 {
+    padding-bottom: 80px;
+  }
+}

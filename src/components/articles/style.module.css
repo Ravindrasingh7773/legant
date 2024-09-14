@@ -1,0 +1,26 @@
+.article_box{
+}
+.article_box .img_box {
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.article_box .img_box img { 
+  height:325px;
+  object-fit: cover;
+  transition: all .3s ease ;
+}
+.article_box .artical_info h6 {
+  font-family: ""poppins",sans-serif", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.article_box:hover img{
+  transform: scale(1.1);
+}
+ 
+@media (max-width: 525px) {
+  .article_box {
+    margin-bottom: 20px;
+  }
+}

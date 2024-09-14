@@ -1,0 +1,50 @@
+.hc_text h2{
+  font-family: "poppins",sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 80px;
+  letter-spacing: -2px;
+  text-align: left; 
+color:#fff;
+}
+.hc_text p{  
+  font-family:  "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color:#FEFEFE;
+}
+.hs_button{
+  background-color: #38CB89;
+  color:#141414;
+}
+
+@media (max-width: 525px) {
+
+.hc_text{
+  text-align: center;
+}
+  .hc_text h2 {
+    font-family: "poppins",sans-serif; 
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.4000000059604645px; 
+  text-align: center;
+  
+  }
+   .hc_text p { 
+    font-family:  "Inter", sans-serif; 
+    color:#fff; 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  text-align: center;
+  
+  }
+   
+  .hs_button{
+    margin:0 auto;
+  }
+}

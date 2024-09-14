@@ -1,0 +1,13 @@
+.fill{
+    background-color: #000;
+}
+.outline{
+    border:1px solid #000; 
+}
+.text{
+    background-color: transparent;
+    border:none;
+}
+.rounded{
+    border-radius: 50px;
+}

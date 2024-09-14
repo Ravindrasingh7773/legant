@@ -1,0 +1,139 @@
+.contact_info,
+.shipping_address,
+.payment_method {
+  padding: 40px 24px;
+  border: 1px solid #6c7275;
+  border-radius: 4px;
+}
+.title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #000000;
+}
+.user_name,
+.state_zip {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+label {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #777e90;
+  padding-bottom: 12px;
+}
+.contact_info input,
+.shipping_address input,
+input {
+  padding: 7px 16px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  width: 100%;
+}
+.shipping_address input {
+  border: 1px solid #6c7275;
+}
+select {
+  padding: 7px 16px;
+  border: 1px solid #6c7275;
+  border-radius: 6px;
+  max-width: 100%;
+  color: #6c7275;
+}
+.b_address,
+.pay_method {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 24px;
+}
+.b_address input,
+.pay_method input {
+  width: auto;
+}
+.b_address label,
+.pay_method label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0;
+}
+.pay_method label {
+  color: #141718;
+}
+.pay_method {
+  border: 1px solid #141718;
+  border-radius: 6px;
+  padding: 13px 16px;
+}
+.pay_pal {
+  border-bottom: 1px solid #6c7275;
+}
+.order_btn {
+  width: 100%;
+}
+
+.heading h3 {
+  font-family: Poppins;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.process_item {
+  display:  flex;
+  align-items: center;
+  border-bottom: 2px solid #141718;
+  padding-bottom: 26px;
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: #23262f;
+  opacity: 0.5;
+}
+.process_item span {
+  background-color: #23262f;
+  padding: 8px 17px 8px 17px;
+  gap: 10px;
+  border-radius: 40px;
+  color: #fff;
+  margin-right: 18px;
+}
+.active {
+  opacity: 1;
+}
+ .passed{
+  color:#38CB89;
+  border-bottom-color:#38CB89;
+  opacity: 1;
+ }
+ 
+ .passed span{
+  background-color: #38CB89;
+ }
+ 
+ @media (max-width :572px) {
+  
+.process_item {
+  padding-bottom:12px;
+  margin-bottom: 14px;
+}
+ 
+.heading h3 { 
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.4000000059604645px; 
+  color: #000000;
+}
+ }

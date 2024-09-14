@@ -1,0 +1,113 @@
+.product_main {  
+  overflow: hidden;
+}
+.product_main  {
+}
+.product_main  {
+}
+.product_main  .product_image {
+  position: relative;
+  background: #f3f5f7;
+  padding: 20px 0;
+  overflow: hidden;
+  isolation: isolate;
+}
+.product_main  .product_image a{
+  display: block;
+}
+.product_main  .product_image img {
+  height: 300px;
+  object-fit: contain; 
+  transition: all 0.3s ease;
+  mix-blend-mode:multiply;
+}
+.product_main  .product_image .product_labels{
+  position: absolute;
+  top: 16px;
+  left: 16px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  z-index:1;
+}
+.product_main  .product_image .product_labels span { 
+padding: 4px 14px 4px 14px; 
+border-radius: 4px ; 
+
+}
+.product_main  .product_image .product_labels .hot_button {  
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 4px;
+  background: #ffffff;
+  font-family:  "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.product_main  .product_image .product_labels .discount_button { 
+  background: #38CB89;
+  color:#fff;
+
+}
+
+.product_main  .product_image .cart_button {
+  width: 85%;
+  position: absolute;
+  top: 287px;
+  left: 16px;
+  visibility: hidden;
+  transition: All 0.3s ease;
+  opacity: 0.3;
+  transform: translateY(50px);
+  z-index:1;
+} 
+
+.product_main  .product_info .product_rating svg{ 
+  color:gold;
+  margin-right: 5px;
+}
+.product_main  .product_info a  {
+  text-decoration: none;
+ }
+.product_main  .product_info a h5 { 
+font-family:  "Inter", sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color:#141718;
+}
+
+.product_main  .product_info p { 
+font-family:  "Inter", sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 22px;
+text-align: left;
+color:#141718;
+}
+
+.discount{
+  opacity:0.7;
+  color: #6C7275;
+  margin-left:10px;
+}
+.product_main:hover .product_image img{
+  transform: scale(1.1);
+}
+.product_main:hover .product_image .cart_button{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (max-width:572px) { 
+.product_main  .product_image .cart_button { 
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+}

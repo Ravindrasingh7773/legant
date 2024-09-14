@@ -1,0 +1,65 @@
+.mb_40{
+    margin-bottom: 40px;
+}
+.shop_short{
+    display:flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.shop_short select{ 
+font-family: "inter",sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+outline: none;
+border: none;
+color:#121212;
+}
+
+.shop_short option {
+    
+font-family: "inter",sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color:#121212;
+}
+
+.sort_third {
+    display: flex;
+    align-items: center;
+  }
+  .sort_third select {
+    border: none;
+  }
+  .sort_third {
+    border: none;
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 32px;
+  }
+  .sort_icon {
+    display: flex;
+    align-items: center;
+  }
+  .sort_icon .icon {
+    width: 46px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e8ecef;
+    cursor: pointer;
+  }
+  .show_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  

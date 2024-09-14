@@ -1,0 +1,55 @@
+.title {
+  margin-bottom: 48px;
+  font-family: "poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+  color: #000;
+}
+/* .swiper{
+    overflow: visible;
+}
+.swiper-pagination {  
+    width: 20%;
+} */
+ .swipper-wrapper{
+  z-index:0;
+ }
+.swiper-custom-bullet {
+  width: 12px;
+  height: 12px;
+  background: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  z-index: 9;
+}
+
+.swiper-custom-bullet-active {
+  background: #000; /* Change this color for the active bullet */
+} 
+#containerForBullets {
+  text-align: right; /* Adjust alignment (right, left, center) */
+  padding-top: 20px; /* Add spacing between pagination and slider */
+}
+
+@media (max-width: 525px) {
+  #containerForBullets {
+    text-align: center; /* Center pagination on smaller screens */
+  }
+  .title {
+    font-family: "poppins",sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+  }
+}

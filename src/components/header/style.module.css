@@ -1,0 +1,133 @@
+.header_navbar {
+  padding: 12px 0;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+}
+.hamburger_menu_icon {
+  display: none;
+  cursor: pointer;
+  padding: 0px 11px 2px;
+}
+ 
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex; 
+  align-items: center; 
+}
+
+.nav_items {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Icons Section */
+.icon_section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Cart Icon Styling */
+.carticon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+.carticon span { 
+  background-color: #141718;
+  color: #fff;
+  font-size: 10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.ht_text .htt_icon {
+  margin-right: 12px;
+}
+
+.ht_text {
+  display: flex;
+  justify-content: center;
+}
+
+.ht_text p {
+  margin: 0;
+  margin-right: 12px; 
+  color:#141718;
+  font-weight: 700;
+}
+
+.ht_text .htt_icon {
+  margin-right: 12px;
+}
+.htt_close{
+  position: absolute;
+  right:20px;
+  top: 10px;
+  cursor: pointer;
+}
+/* Hamburger Menu Icon */
+.hamburger_menu_icon {
+  display: none;
+  cursor: pointer;
+}
+ 
+.hamburger_menu_icon svg{
+  height: 18px;
+  width: 18px;
+  vertical-align: baseline;
+} 
+.header_topbar {
+  background-color: #38CB89;
+  padding: 8px 0;
+}
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .nav_items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .show_menu {
+    display: flex;
+  }
+
+  .hamburger_menu_icon {
+    display: block;
+  }
+
+  .icon_section {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Desktop Specific Styling */
+@media (min-width: 992px) {
+  .hide_menu {
+    display: none;
+  }
+}

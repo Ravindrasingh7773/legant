@@ -1,0 +1,125 @@
+.heading h3 {
+  font-family: Poppins;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.process_item {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #141718;
+  padding-bottom: 26px;
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: #23262f;
+  opacity: 0.5;
+}
+.process_item span {
+  background-color: #23262f;
+  padding: 8px 17px 8px 17px;
+  gap: 10px;
+  border-radius: 40px;
+  color: #fff;
+  margin-right: 18px;
+}
+.active {
+  opacity: 1;
+}
+.passed {
+  color: #38cb89;
+  border-bottom-color: #38cb89;
+  opacity: 1;
+}
+
+.passed span {
+  background-color: #38cb89;
+}
+ 
+.order_complete_box {
+  text-align: center;
+  padding: 80px 97px;
+  box-shadow: 0px 32px 48px -48px #1212121A;  
+    gap: 40px;
+    mix-blend-mode: multiply;
+}
+
+.order_complete_box .order_title h6 {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.6000000238418579px;
+  text-align: center;
+  color: #6c7275;
+}
+.order_complete_box .order_title h4 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+  color: #23262f;
+  margin-top: 16px;
+}
+
+.order_complete_box .order_title {
+  margin-bottom: 40px;
+}
+
+.order_complete_box .order_items{
+  display:flex;
+  gap:56px;
+}
+
+.order_complete_box .order_items .order_item{
+  width:80px;
+  height:96px;
+  background-color: #F3F5F7;
+  position: relative;
+
+}
+
+.order_complete_box .order_items .order_item img{
+  mix-blend-mode: multiply;
+}
+
+
+.order_complete_box .order_items .order_item span{
+  width:24px;
+  height:24px;
+  padding:5px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:-15px;
+  right:-15px;
+  background:#000;
+  color:#FCFCFD;
+  border-radius: 50%;
+  font-size: 16px; 
+}
+
+@media (max-width: 572px) {
+  .process_item {
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+  }
+
+  .heading h3 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4000000059604645px;
+    color: #000000;
+  }
+}

@@ -1,0 +1,39 @@
+.hero{    
+  background: linear-gradient(90deg, #121212 55.05%, #0D0D0D 100%);  
+} 
+  
+.hero .h_col {
+  width:500px; 
+}
+
+  .hero .h_content { 
+    padding: 196px 0;
+  } 
+  .hero .h_content .hc_text h2 {
+    font-family: "poppins",sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: -2px;
+    text-align: left; 
+  }
+  .hero .h_content .hc_text p { 
+    font-family:  "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color:#fff;
+    
+  }
+  @media (max-width: 525px) {
+    
+  .hero .h_content { 
+    padding: 40px 0;
+  } 
+  .h_img_col img{
+    height: 370px;
+
+  }
+  
+  }

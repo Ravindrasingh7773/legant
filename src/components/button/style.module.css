@@ -1,0 +1,89 @@
+.button { 
+  color: #fff; 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; 
+  text-decoration: none; 
+  gap: 8px;
+  border-radius: 8px  ;  
+}
+/* type  */
+
+.cyilender{ 
+  top: 16px;
+  left: 16px;
+  padding: 6px 40px 6px 40px;
+  gap: 8px;
+  border-radius: 80px ;
+  opacity: 0px;
+  }
+/* Variants */ 
+ 
+.icon {
+  margin-right: 10px;
+  font-size:20px;
+}
+ .text{
+  color:#141718;
+  border-bottom:2px solid #141718;
+  border-radius: 0;
+  background-color: transparent;
+  padding:0;
+ } 
+.fill{
+  background: #141718; 
+  border-color: #141718;
+  color:#fff;
+}
+.outline{
+  background: transparent; 
+  border-color: #141718;
+  color:#141718;
+} 
+ 
+
+.small {
+  padding: 6px 40px;
+  font-size: 14px;
+}  
+.medium {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.large {
+  padding: 8px 24px;
+  font-size: 16px;
+}   
+ 
+/* Display modifiers */
+.block {
+  display: block;
+  width: 100%;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+/* Alignment modifiers */
+.alignleft {
+  text-align: left;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.alignright {
+  text-align: end;
+}
+
+/* Custom styles for the arrow icon */
+.icon {
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.button:hover .icon {
+  transform: translateX(4px);
+}

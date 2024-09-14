@@ -1,0 +1,151 @@
+.cartBar {
+  width: 350px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.cartItems {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  padding:24px 0;
+  border-bottom: 1px solid #E8ECEF;
+}
+.ci_image{
+  background-color: #F3F5F7;
+  margin-right: 15px;
+}
+.itemImage {
+  width: 80px;
+  height: 96px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.itemDetails {
+  flex: 1;
+}
+.itemPrice {
+  display: flex;
+}
+.itemDetails .itemPrice h4 {
+  font-family: "inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #141718;
+  width:200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex: 1;
+  padding-right:10px;
+}
+.item_des{
+  display:flex;
+  justify-content: space-between;
+}
+.item_des p{
+  margin: 0;
+}
+.itemPrice p {
+  font-family: "inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: right;
+}
+.quantityControl {
+  display: flex;
+  width: 34%;
+  padding:6px;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid #6C7275; 
+  border-radius: 4px;;
+  gap:10px;
+}
+
+.quantityControl button {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.quantityControl>input {
+  width: 25px; 
+  padding:0;
+  text-align: center;  
+  border:none;
+  outline:none;
+  background-color: transparent;
+}
+
+.quantityControl input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  appearance: none;
+  margin: 0;
+}
+
+.removeBtn {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+.subtotal,
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.checkoutBtn,
+.viewCartBtn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.checkoutBtn {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.viewCartBtn {
+  background-color: white;
+  border: 1px solid #ddd;
+}
